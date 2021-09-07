@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>My computer</title>
+    <style>
+        body{
+            background-color:white;
+        }
+    </style>
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+<body>
+        <div class="container p-3 my-3 bg-dark text-white">
+            <h1 style="text-align: center;" style="color: teal;">Welcome to our website</h1>
+            <p style="text-align: center;" style="color: darkcyan;">you can learn to how use your computer</p>
+        </div>
+         <ul>
+            <li>how work with power point , microsoft word , etc</li>
+            <li>how to work with Visual studio code , pycharm , etc</li>
+        </ul>
+        <h3>You can see this table to get more info :</h3>
+        <h4>pullar icons for computer:</h4>
+        <table style="border: 1cm;">
+            <tr>
+                <th>Power point </th>
+                <th>Exel</th>
+                <th>Word</th>
+            </tr>
+            <tr>
+                <td>topics in from of the videos</td>
+                <td>Acounnting program</td>
+                <td>writing app</td>
+            </tr>
+            <tr>
+                <td>for makeing  video</td>
+                <td>for makeing artical</td>
+                <td>for makeing table</td>
+            </tr>
+        </table><br>
+        <a href="My computer login.html">if you want to login into our website push this link</a>
+        <hr>
+        <a href="programming.html"><h5>if you want to go to our the other  web site click this link</h5></a><br><br>
+        <a href="https://www.google.com">if you want to go to the google click this link </a><br><br>
+        <a href="https://www.w3school.com">if you want to learn about programming click this link </a><br><br>
+        <div class="contianer p-3 my-3 bg-dark text-white">
+    
+            <h2>What Can JavaScript Do?</h2>
+            
+            <p>JavaScript can change HTML attribute values.</p>
+            
+            <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+            </div>
+            
+            <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+            
+            <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+            
+            <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+            <h2>What Can JavaScript Do?</h2>
+            
+            <p id="demo">JavaScript can change the style of an HTML element.</p>
+            
+            <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+            
+            <H3>the javascript is very important for bakend and its so esier than ather apps for bakend in programming</H3>
+            <div class="container p-3 my-3 bg-primary text-white"><h2 style="text-align: center;">how to make js file </h2>
+                <p style="text-align: center">you should learn the keys words from js</p>
+            </div>
+            <h4>for example:</h4>
+            <h2>JavaScript Array Methods</h2> 
+            <h2>toString()</h2>
+            <p>The toString() method returns an array as a comma separated string:</p>
+            
+            <p id="demo"></p>
+            
+            <script>
+            const fruits = ["Banana", "Orange", "Apple", "Mango"];
+            document.getElementById("demo").innerHTML = fruits.toString();
+            </script>
+            <h2>JavaScript Array Methods</h2>
+            <h2>pop()</h2>
+            <p>The pop() method removes the last element from an array.</p>
+            
+            <p id="demo1"></p>
+            <p id="demo2"></p>
+            
+            <script>
+            const fruits = ["Banana", "Orange", "Apple", "Mango"];
+            document.getElementById("demo1").innerHTML = fruits;
+            fruits.pop();
+            document.getElementById("demo2").innerHTML = fruits;
+            </script>
+            <h2>JavaScript Loops</h2>
+            
+            <p>A loop with a <b>continue</b> statement.</p>
+            
+            <p>A loop which will skip the step where i = 3.</p>
+            
+            <p id="demo"></p>
+            
+            <script>
+            let text = "";
+            for (let i = 0; i < 10; i++) {
+              if (i === 3) { continue; }
+              text += "The number is " + i + "<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+            </script>
+            
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "Alireza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Alireza.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlirezacOD/Test-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlirezacOD/Test-/issues"
+  },
+  "homepage": "https://github.com/AlirezacOD/Test-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
